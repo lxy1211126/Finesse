@@ -1,0 +1,370 @@
+{
+  "schema": 1,
+  "seed": 20261123,
+  "base_size_mib": 1,
+  "paper_original_datasets_included": false,
+  "warning": "Only tar/ contains selected real Linux source files. WEB, RDB, SYN, VMA, and VMB directories are synthetic proxies, not original paper data.",
+  "files": [
+    {
+      "path": "web/00_base.bin",
+      "bytes": 1048576,
+      "sha256": "4c0946e96b2f53336810579bec0dc8554b15fc3be39e87aafce43d149ac86605",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "base",
+      "base": null
+    },
+    {
+      "path": "web/01_exact.bin",
+      "bytes": 1048576,
+      "sha256": "4c0946e96b2f53336810579bec0dc8554b15fc3be39e87aafce43d149ac86605",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "exact",
+      "base": "web/00_base.bin"
+    },
+    {
+      "path": "web/02_local.bin",
+      "bytes": 1048576,
+      "sha256": "666d739f34414ae01c97595021fd98337f5e7469a193c23c133d158544638f3f",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "local",
+      "base": "web/00_base.bin"
+    },
+    {
+      "path": "web/03_indel.bin",
+      "bytes": 1052672,
+      "sha256": "3d91b982ae9b4924a0f2b24d7987930e0390a7fb48835353acdd57fe11d11c85",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "indel",
+      "base": "web/00_base.bin"
+    },
+    {
+      "path": "web/04_heavy.bin",
+      "bytes": 1048576,
+      "sha256": "3c958a2c22789898d24760925910447d42a774ce1d534f0225d0ff9364abbf32",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "heavy",
+      "base": "web/00_base.bin"
+    },
+    {
+      "path": "web/05_unrelated.bin",
+      "bytes": 1048576,
+      "sha256": "ef04b90cc5a61af6f18667e42445cfdc55219beb632b5fd5706be0e1e38dac33",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "unrelated",
+      "base": "web/00_base.bin"
+    },
+    {
+      "path": "rdb/00_base.bin",
+      "bytes": 1048576,
+      "sha256": "3d6bd106397b4c8c911c7951af9ee427cffb927371eff696445c93e635a79fd6",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "base",
+      "base": null
+    },
+    {
+      "path": "rdb/01_exact.bin",
+      "bytes": 1048576,
+      "sha256": "3d6bd106397b4c8c911c7951af9ee427cffb927371eff696445c93e635a79fd6",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "exact",
+      "base": "rdb/00_base.bin"
+    },
+    {
+      "path": "rdb/02_local.bin",
+      "bytes": 1048576,
+      "sha256": "2809f133e0b28945ece928530d5be075c6bca75bd78afff99f293a56ec1c8b38",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "local",
+      "base": "rdb/00_base.bin"
+    },
+    {
+      "path": "rdb/03_indel.bin",
+      "bytes": 1052672,
+      "sha256": "1513160dbcc0e4e4f1134555ed30f4b85c4400005c73a13a83c83d887b5fc1e0",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "indel",
+      "base": "rdb/00_base.bin"
+    },
+    {
+      "path": "rdb/04_heavy.bin",
+      "bytes": 1048576,
+      "sha256": "e283c535be8bc2cb4589bf3fb7abc484074a37b9874c896fbc78926fa0f53f6d",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "heavy",
+      "base": "rdb/00_base.bin"
+    },
+    {
+      "path": "rdb/05_unrelated.bin",
+      "bytes": 1048576,
+      "sha256": "4cc660c52b89ab1fc8b12fac22b33000d5ed1904ce0c539a62b6edb82a22a662",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "unrelated",
+      "base": "rdb/00_base.bin"
+    },
+    {
+      "path": "syn/00_base.bin",
+      "bytes": 1048576,
+      "sha256": "27082ae8a81fd5325eba2c191f4753552476af71b59e90ea5b453cc6c4acef1a",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "base",
+      "base": null
+    },
+    {
+      "path": "syn/01_exact.bin",
+      "bytes": 1048576,
+      "sha256": "27082ae8a81fd5325eba2c191f4753552476af71b59e90ea5b453cc6c4acef1a",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "exact",
+      "base": "syn/00_base.bin"
+    },
+    {
+      "path": "syn/02_local.bin",
+      "bytes": 1048576,
+      "sha256": "375a74ba37ef117743a18fe4317bf33754ac27960176cf5e5003afe324bd7034",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "local",
+      "base": "syn/00_base.bin"
+    },
+    {
+      "path": "syn/03_indel.bin",
+      "bytes": 1052672,
+      "sha256": "2355a31e15dca5c1bcbe022d6ec136ae9c6a5bf45c02cdfe93132c9497f9cc1e",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "indel",
+      "base": "syn/00_base.bin"
+    },
+    {
+      "path": "syn/04_heavy.bin",
+      "bytes": 1048576,
+      "sha256": "f6aefa4785c93c3987f94956ddccf0923a643a5a3b3d1c72103ad313f39bda90",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "heavy",
+      "base": "syn/00_base.bin"
+    },
+    {
+      "path": "syn/05_unrelated.bin",
+      "bytes": 1048576,
+      "sha256": "07f4dd5680d88e7653fdba4e1e362b4aece245ab3b29702fc3d4feceed948898",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "unrelated",
+      "base": "syn/00_base.bin"
+    },
+    {
+      "path": "vma/00_base.bin",
+      "bytes": 1048576,
+      "sha256": "d947df75bc0a7a389506fbb835fdba97773c296b7bacc60e3d093d92a159d9fd",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "base",
+      "base": null
+    },
+    {
+      "path": "vma/01_exact.bin",
+      "bytes": 1048576,
+      "sha256": "d947df75bc0a7a389506fbb835fdba97773c296b7bacc60e3d093d92a159d9fd",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "exact",
+      "base": "vma/00_base.bin"
+    },
+    {
+      "path": "vma/02_local.bin",
+      "bytes": 1048576,
+      "sha256": "cec039162683d0d1564ecae3f4926962430448e0f7f919757cb83e872178e148",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "local",
+      "base": "vma/00_base.bin"
+    },
+    {
+      "path": "vma/03_indel.bin",
+      "bytes": 1052672,
+      "sha256": "d28282abe8ef0aa4c227a593b4772390fd2acd85bfffee63b254a0f7678afa55",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "indel",
+      "base": "vma/00_base.bin"
+    },
+    {
+      "path": "vma/04_heavy.bin",
+      "bytes": 1048576,
+      "sha256": "1e41b51ab70f636907d3af8326eddde4a73113b1755435505007cf4d4004286c",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "heavy",
+      "base": "vma/00_base.bin"
+    },
+    {
+      "path": "vma/05_unrelated.bin",
+      "bytes": 1048576,
+      "sha256": "b4a92b071a9c433f096e788f79855907326c0df8577165e175fa048b49ffa853",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "unrelated",
+      "base": "vma/00_base.bin"
+    },
+    {
+      "path": "vmb/00_base.bin",
+      "bytes": 1048576,
+      "sha256": "895aa677a31d8d6896cf446d46c9b18028ff89632420cfc3e814702e86e96567",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "base",
+      "base": null
+    },
+    {
+      "path": "vmb/01_exact.bin",
+      "bytes": 1048576,
+      "sha256": "895aa677a31d8d6896cf446d46c9b18028ff89632420cfc3e814702e86e96567",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "exact",
+      "base": "vmb/00_base.bin"
+    },
+    {
+      "path": "vmb/02_local.bin",
+      "bytes": 1048576,
+      "sha256": "18ca1fbb64b7d5cfdfe6be0e579b1d030c0fac335dc285d5d4cebbc77d9e0d52",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "local",
+      "base": "vmb/00_base.bin"
+    },
+    {
+      "path": "vmb/03_indel.bin",
+      "bytes": 1052672,
+      "sha256": "5e769e1b02ed7bc9afd32571f7f9a5d67f4a8ff78d32ca06a16e1a7d0de2ce54",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "indel",
+      "base": "vmb/00_base.bin"
+    },
+    {
+      "path": "vmb/04_heavy.bin",
+      "bytes": 1048576,
+      "sha256": "e88e64c7359abfbc94348b06a48607e106c12a25dc48442769caebf758152730",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "heavy",
+      "base": "vmb/00_base.bin"
+    },
+    {
+      "path": "vmb/05_unrelated.bin",
+      "bytes": 1048576,
+      "sha256": "08b9ff8f9edbebaec8a7f068dbe440b82e58ab3ef6bad55b361a433512f55782",
+      "provenance": "generated synthetic proxy; not original paper data",
+      "variant": "unrelated",
+      "base": "vmb/00_base.bin"
+    },
+    {
+      "path": "tar/linux-2.6.0/COPYING",
+      "bytes": 18691,
+      "sha256": "0d7259feae5a7282c808e573622997e6abfb44f414457c0fba28841f702000c4",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.0.tar",
+      "archive_member": "linux-2.6.0/COPYING"
+    },
+    {
+      "path": "tar/linux-2.6.0/README",
+      "bytes": 14489,
+      "sha256": "f50922e3519647650bc2fe9e0eee530de04a3cd64a9643470615bca2f1be7b5b",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.0.tar",
+      "archive_member": "linux-2.6.0/README"
+    },
+    {
+      "path": "tar/linux-2.6.0/init/main.c",
+      "bytes": 14327,
+      "sha256": "5fffae96018692dd7f137c16f38d95c6712656fb09136bc77ae24b73c37d2ae9",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.0.tar",
+      "archive_member": "linux-2.6.0/init/main.c"
+    },
+    {
+      "path": "tar/linux-2.6.0/kernel/Makefile",
+      "bytes": 2189,
+      "sha256": "5d583f41976d10caee50d576bf477032f2dff9d155fa0f2c5cbe2a0071ce5b16",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.0.tar",
+      "archive_member": "linux-2.6.0/kernel/Makefile"
+    },
+    {
+      "path": "tar/linux-2.6.0/kernel/fork.c",
+      "bytes": 31784,
+      "sha256": "442544ab713853af8d7b61278f6bcc39d641785bb5af9d566c6262ca264a9f2d",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.0.tar",
+      "archive_member": "linux-2.6.0/kernel/fork.c"
+    },
+    {
+      "path": "tar/linux-2.6.5/COPYING",
+      "bytes": 18691,
+      "sha256": "0d7259feae5a7282c808e573622997e6abfb44f414457c0fba28841f702000c4",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.5.tar",
+      "archive_member": "linux-2.6.5/COPYING"
+    },
+    {
+      "path": "tar/linux-2.6.5/README",
+      "bytes": 13976,
+      "sha256": "a887ed76faf517c0891a4fcc8dc686f0f124a108c1ea2088afba483103e77e0b",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.5.tar",
+      "archive_member": "linux-2.6.5/README"
+    },
+    {
+      "path": "tar/linux-2.6.5/init/main.c",
+      "bytes": 14995,
+      "sha256": "b1eb654d36bf2fe99e8b746df59f00fb2b0e52389646699456c82d2f30f278b6",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.5.tar",
+      "archive_member": "linux-2.6.5/init/main.c"
+    },
+    {
+      "path": "tar/linux-2.6.5/kernel/Makefile",
+      "bytes": 2251,
+      "sha256": "8da71c87d91a7ad9f95706742aff5c7760e938c5477b10a5298d228d03215770",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.5.tar",
+      "archive_member": "linux-2.6.5/kernel/Makefile"
+    },
+    {
+      "path": "tar/linux-2.6.5/kernel/fork.c",
+      "bytes": 31325,
+      "sha256": "2a90146164ddf04dbceee0c06f491569c0b90f2e87429c28596de1bfef190b29",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.5.tar",
+      "archive_member": "linux-2.6.5/kernel/fork.c"
+    },
+    {
+      "path": "tar/linux-2.6.9/COPYING",
+      "bytes": 18691,
+      "sha256": "0d7259feae5a7282c808e573622997e6abfb44f414457c0fba28841f702000c4",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.9.tar",
+      "archive_member": "linux-2.6.9/COPYING"
+    },
+    {
+      "path": "tar/linux-2.6.9/README",
+      "bytes": 13970,
+      "sha256": "bdf5a82dd0c478c87f635e1262f5016d906b99509740304d7ae7b4b083ac8def",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.9.tar",
+      "archive_member": "linux-2.6.9/README"
+    },
+    {
+      "path": "tar/linux-2.6.9/init/main.c",
+      "bytes": 18086,
+      "sha256": "c6ece3463a0f74bb50e17fdce2f2f54c7f710fbfa4ee3a184c80756305a39ef2",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.9.tar",
+      "archive_member": "linux-2.6.9/init/main.c"
+    },
+    {
+      "path": "tar/linux-2.6.9/kernel/Makefile",
+      "bytes": 1893,
+      "sha256": "f3709061472ad62a8f7f03ee0a5351d33f7dfe273fdf9f260d468de80acd8754",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.9.tar",
+      "archive_member": "linux-2.6.9/kernel/Makefile"
+    },
+    {
+      "path": "tar/linux-2.6.9/kernel/fork.c",
+      "bytes": 33418,
+      "sha256": "ea350d15c5c0e14db5a8f991c9f6edf5351ec1520897a980d54641da7ea095a9",
+      "provenance": "selected file from local public Linux source archive",
+      "source_archive": "linux-2.6.9.tar",
+      "archive_member": "linux-2.6.9/kernel/fork.c"
+    }
+  ],
+  "total_bytes": 31726536
+}

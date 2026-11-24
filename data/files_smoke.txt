@@ -1,0 +1,6 @@
+syn/test-smoke-00_base.bin
+syn/test-smoke-01_exact.bin
+syn/test-smoke-02_local.bin
+syn/test-smoke-03_indel.bin
+syn/test-smoke-04_heavy.bin
+syn/test-smoke-05_unrelated.bin

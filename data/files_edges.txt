@@ -1,0 +1,8 @@
+syn/test-edge-len_00000.bin
+syn/test-edge-len_00001.bin
+syn/test-edge-len_00047.bin
+syn/test-edge-len_00048.bin
+syn/test-edge-len_00049.bin
+syn/test-edge-len_08191.bin
+syn/test-edge-len_08192.bin
+syn/test-edge-len_08193.bin

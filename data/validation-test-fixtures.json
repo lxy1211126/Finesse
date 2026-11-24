@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "files": 38,
+  "payload_bytes": 50782865,
+  "exact_pairs": 5,
+  "edited_pairs": 10,
+  "indel_pairs": 5,
+  "unrelated_pairs": 5,
+  "same_seed_full_regeneration": "PASS: all 38 payloads, manifest and three input lists are byte-identical",
+  "smoke_concatenation": "PASS: correct list order, exact bytes, no added headers",
+  "smoke_stream_bytes": 393728,
+  "smoke_stream_sha256": "0743fedade33953b954ef2e317cbce40ed94ba86a0d6580e17b223c2d4a1fe42",
+  "main_files": 24,
+  "edge_sizes": [
+    0,
+    1,
+    47,
+    48,
+    49,
+    8191,
+    8192,
+    8193
+  ],
+  "note": "Dataset integrity and generation relationships validated. No user Finesse implementation or delta codec has been executed."
+}

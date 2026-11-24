@@ -1,0 +1,16 @@
+/build/
+/.deps/
+__pycache__/
+*.py[cod]
+/xdelta3_*.deb
+/data/tar/kruus/
+/data/tar/linux-5.10/raw/
+/data/tar/linux-5.10/processed/
+/data/syn/kruus/
+/results/logs/
+/results/stores/
+/results/processed/*
+!/results/processed/final-sf32-dce-v2.csv
+!/results/processed/final-report.md
+/Zhang*.pdf
+/third_party/destor/

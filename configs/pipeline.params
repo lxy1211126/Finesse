@@ -1,0 +1,4 @@
+cache_mb=400
+dedup_fingerprint=sha256
+delta=xdelta3-native
+first_fit=true
